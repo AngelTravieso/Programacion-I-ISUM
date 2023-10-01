@@ -50,15 +50,14 @@ int main() {
    unsigned int miVariable = 42;
 
     cout << "---------- Rango del dato: ----------" << endl;
-    std::cout << "Minimo int: " << std::numeric_limits<int>::min() << endl;
-    std::cout << "Maximo int: " << std::numeric_limits<int>::max() << endl;
-    std::cout << "Minimo int sin signo (solo positivos): " << std::numeric_limits<unsigned int>::min() << endl;
-    std::cout << "Maximo int sin signo (solo positivos): " << std::numeric_limits<unsigned int>::max() << endl;
-    std::cout << "Minimo long int: " << std::numeric_limits<long int>::min() << endl;
-    std::cout << "Maximo long int: " << std::numeric_limits<long int>::max() << endl;
-
-    std::cout << "Unsigned Long Int Min: " << std::numeric_limits<unsigned  long int>::min() <<endl;
-    std::cout << "Unsigned Long Int Max: " << std::numeric_limits<unsigned  long int>::max() << endl;
+    cout << "Minimo int: " << numeric_limits<int>::min() << endl;
+    cout << "Maximo int: " << numeric_limits<int>::max() << endl;
+    cout << "Minimo int sin signo (solo positivos): " << numeric_limits<unsigned int>::min() << endl;
+    cout << "Maximo int sin signo (solo positivos): " << numeric_limits<unsigned int>::max() << endl;
+    cout << "Minimo long int: " << numeric_limits<long int>::min() << endl;
+    cout << "Maximo long int: " << numeric_limits<long int>::max() << endl;
+    cout << "Unsigned Long Int Min: " << numeric_limits<unsigned  long int>::min() <<endl;
+    cout << "Unsigned Long Int Max: " << numeric_limits<unsigned  long int>::max() << endl;
     cout << "-------------------- \n" << endl;
 
     return 0;
