@@ -56,8 +56,8 @@ int main() {
     cout << "Maximo int sin signo (solo positivos): " << numeric_limits<unsigned int>::max() << endl;
     cout << "Minimo long int: " << numeric_limits<long int>::min() << endl;
     cout << "Maximo long int: " << numeric_limits<long int>::max() << endl;
-    cout << "Unsigned Long Int Min: " << numeric_limits<unsigned  long int>::min() <<endl;
-    cout << "Unsigned Long Int Max: " << numeric_limits<unsigned  long int>::max() << endl;
+    cout << "Minimo long sin signo (solo positivos): " << numeric_limits<unsigned  long int>::min() <<endl;
+    cout << "Maximo long sin signo (solo positivos): " << numeric_limits<unsigned  long int>::max() << endl;
     cout << "-------------------- \n" << endl;
 
     return 0;
