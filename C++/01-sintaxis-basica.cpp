@@ -9,7 +9,7 @@ using namespace std;
 // main() es donde la ejecución del programa comienza
 int main() {
 
-    cout << "Hola Mundo desde C++" << endl; // Imprime "Hola Mundo desde C++"
+    cout << "Hola Mundo desde C++" << endl; // Imprime "Hola Mundo desde C++, endl inserta una nueva linea (equivalente a \n)"
 
     // La siguiente línea devuelve 0; finaliza la función principal () y hace que devuelva el valor 0 al proceso de llamada.
     return 0;
