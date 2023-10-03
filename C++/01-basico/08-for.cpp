@@ -15,6 +15,8 @@ using namespace std;
 int main() {
     
     // Ejecución del loop
+
+    // Inicialización; Condición, Incrementador
     for ( int i = 10; i <= 20; i++) {
         cout << "El valor de i es: " << i << endl;
     }
